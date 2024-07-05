@@ -3,10 +3,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: url('../images/pexels-pavel-danilyuk-8294666.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 header {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8);
     color: white;
     padding: 1rem;
     text-align: center;
@@ -31,16 +33,14 @@ section {
     padding: 2rem;
 }
 
-#home {
-    background: url('background-image.jpg') no-repeat center center;
-    background-size: cover;
+#intro {
     color: white;
     text-align: center;
     height: 100vh;
 }
 
 footer {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8);
     color: white;
     text-align: center;
     padding: 1rem;
@@ -48,3 +48,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
